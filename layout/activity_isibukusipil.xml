@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/iconback"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:fillViewport="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="4dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:justificationMode="inter_word"
+            android:text="BAB 1: Konsep Dasar Kebijakan Publik
+
+Pengertian dan Tipologi Kebijakan Publik: Membahas definisi kebijakan publik dan klasifikasinya (regulasi, redistribusi, distribusi).
+Fungsi dan Karakteristik: Peran kebijakan dalam masyarakat dan sifat multidimensinya.
+\nBAB 2: Aktor-Aktor Kebijakan Publik
+Aktor Negara: Lembaga eksekutif, legislatif, dan yudikatif.
+Aktor Non-Negara: Media massa, LSM, kelompok kepentingan, dan individu.
+\nBAB 3: Pendekatan dalam Kebijakan Publik
+Pendekatan Sistem dan Kelompok: Proses input-output kebijakan, peran kelompok kepentingan.
+Pendekatan Elit dan Kelembagaan: Kebijakan sebagai alat elit politik dan pengaruh struktur institusi.
+\nBAB 4: Reformasi dan Perumusan Kebijakan
+Proses Perumusan: Identifikasi masalah, penyusunan solusi, dan konsultasi publik.
+Tantangan dalam Reformasi: Konflik kepentingan dan hambatan birokrasi.
+\nBAB 5: Implementasi Kebijakan Publik
+Model Top-Down dan Bottom-Up: Perbedaan pendekatan pelaksanaan kebijakan.
+Hambatan Implementasi: Kurangnya sumber daya dan dukungan masyarakat.
+\nBAB 6: Evaluasi Kebijakan Publik
+Metode Evaluasi: Efektivitas, efisiensi, dan dampak kebijakan.
+Pemanfaatan Hasil Evaluasi: Perbaikan dan inovasi kebijakan.
+\nBAB 7: Lingkungan Kebijakan
+Aspek Politik dan Ekonomi: Pengaruh dinamika politik dan anggaran terhadap kebijakan.
+Faktor Sosial dan Budaya: Nilai-nilai lokal dan tradisional dalam formulasi kebijakan.
+\nBAB 8: Filsafat Pendidikan dan Nilai-Nilai
+Hakikat Filsafat Pendidikan: Peran filsafat dalam membentuk sistem pendidikan.
+Nilai, Etika, dan Estetika: Kontribusi aksiologi dalam pengajaran dan pembelajaran.
+\nBAB 9: Hubungan Sipil dan Militer dalam Demokrasi
+Supremasi Sipil atas Militer: Prinsip demokrasi dan kontrol sipil atas angkatan bersenjata.
+Diskursus Kebijakan Keamanan Nasional: Peran RUU Keamanan Nasional dalam hubungan sipil-militer.
+\nBAB 10: Pendidikan Moral di Era Revolusi Mental
+Revolusi Mental: Meningkatkan kesadaran moral dan integritas di masyarakat.
+Pendidikan Karakter: Relevansi etika dalam sistem pendidikan modern.
+\nBAB 11: Tantangan Demokrasi dan Reformasi Keamanan
+Reformasi Sektor Keamanan: Transformasi lembaga militer dan keamanan ke arah profesionalisme.
+Tantangan Implementasi RUU Keamanan Nasional: Konflik kepentingan dan resistensi politik"/>
+    </ScrollView>
+
+</RelativeLayout>
